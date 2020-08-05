@@ -3,7 +3,7 @@
 ## About the sample
 This example illustrates how to export the WinForms DataGrid (SfDataGrid) with RowHeader
 
-By default, [SfDataGrid](https://help.syncfusion.com/cr/cref_files/windowsforms/Syncfusion.SfDataGrid.WinForms~Syncfusion.WinForms.DataGrid.SfDataGrid.html)  does not provide the direct support to export the row header. You can export the row header column by using Worksheet.InsertColumn method to insert column manually in ExcelSheet and make customization in inserted column.
+By default, [SfDataGrid](https://help.syncfusion.com/cr/cref_files/windowsforms/Syncfusion.SfDataGrid.WinForms~Syncfusion.WinForms.DataGrid.SfDataGrid.html)  does not provide the support to export the row header. You can export the row header column by using Worksheet.InsertColumn method to insert column manually in ExcelSheet and make customization in inserted column.
 
 ```C#
 private void BtnExportExcel_Click(object sender, EventArgs e)
